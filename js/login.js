@@ -11,7 +11,7 @@ document.getElementById('login-btn').addEventListener('click', function(event){
     const pinNumber = document.getElementById('pin-number').value;
     console.log(pinNumber)
 
-    if(phoneNumber === '01792999202' && pinNumber === '20658'){
+    if(phoneNumber === '01792999202' && pinNumber === '41'){
         console.log('successfully login')
         window.location.href='./home.html';
     }else{
